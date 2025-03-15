@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "firstName": "John",
+      "lastName": "Doe",
+      "location": "New York",
+      "mobileNumber": "1234567890"
+    },
+    {
+      "id": 2,
+      "email": "jane.smith@example.com",
+      "password": "password456",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "location": "Los Angeles",
+      "mobileNumber": "0987654321"
+    },
+    {
+      "email": "souvikpaul568@gmail.com",
+      "password": "password",
+      "firstName": "Souvik",
+      "lastName": "Paul",
+      "location": "Kolkata, West Bengal",
+      "mobileNumber": "8250453596",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 102,
+      "name": "Smartphone",
+      "description": "Latest smartphone with 5G",
+      "manufacturer": "Mobile Inc",
+      "manufacturingDate": "2024-02-15",
+      "price": 8000,
+      "quantity": 50
+    },
+    {
+      "id": 103,
+      "name": "Laptop",
+      "description": "i7 12th gen",
+      "manufacturer": "HP",
+      "manufacturingDate": "2024-02-24",
+      "price": 80000,
+      "quantity": 25
+    }
+  ]
+}

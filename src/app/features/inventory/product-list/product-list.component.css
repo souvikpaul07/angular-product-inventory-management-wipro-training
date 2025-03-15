@@ -1,0 +1,86 @@
+.product-list-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.product-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #013b07; /* Dark Blue */
+    margin-bottom: 16px;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f4f6; /* Light Gray */
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product-actions {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.view-btn {
+    background-color: #2563eb; /* Blue */
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #1e40af;
+}
+
+.edit-btn {
+    background-color: #facc15; /* Yellow */
+    color: black;
+}
+
+.edit-btn:hover {
+    background-color: #eab308;
+}
+
+.delete-btn {
+    background-color: #ef4444; /* Red */
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #dc2626;
+}
+
+.add-product-btn {
+    background-color: #22c55e; /* Green */
+    color: white;
+    padding: 10px 16px;
+    margin-top: 20px;
+}
+
+.add-product-btn:hover {
+    background-color: #16a34a;
+}

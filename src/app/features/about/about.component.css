@@ -1,0 +1,68 @@
+.about-container {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f0fdf4; /* Light green */
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #013b07; /* Dark Green */
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.about-description {
+    font-size: 16px;
+    color: #1c4532; /* Darker Green */
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #013b07;
+    margin-top: 20px;
+    border-bottom: 2px solid #013b07;
+    padding-bottom: 5px;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.about-list li {
+    font-size: 16px;
+    color: #1c4532;
+    margin: 8px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.about-list li::before {
+    content: "✔";
+    color: #13a34a;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.highlight {
+    color: #065f46; /* Medium Green */
+    font-weight: bold;
+}
+
+.highlight-box {
+    background-color: #d1fae5; /* Light green shade */
+    padding: 12px;
+    border-left: 4px solid #013b07;
+    border-radius: 6px;
+    margin-top: 15px;
+    text-align: justify;
+}

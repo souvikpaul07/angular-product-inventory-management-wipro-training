@@ -1,0 +1,40 @@
+/* Ensure the body covers the entire viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Footer always stays at the bottom */
+.footer {
+    background-color: #097113; /* Dark Green */
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    width: 100%;
+    position: fixed; /* Keep footer at the bottom */
+    bottom: 0;
+    left: 0;
+}
+
+/* Prevent content from going behind the footer */
+.main-content {
+    padding-bottom: 60px; /* Adjust based on footer height */
+}
+
+/* Footer links styling */
+.footer-links {
+    margin-top: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #66f285; /* Lighter Green */
+}

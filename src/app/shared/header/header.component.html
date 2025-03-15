@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <h1 class="project-title">Product Inventory Management</h1>
+
+    <div class="nav-links">
+        <a routerLink="/inventory">Products</a>
+        <a routerLink="/about">About</a>
+
+        <ng-container *ngIf="!isLoggedIn()">
+            <a routerLink="/auth/sign-in">Sign In</a>
+            <a routerLink="/auth/register">Register</a>
+        </ng-container>
+
+        <ng-container *ngIf="isLoggedIn()">
+            <button class="logout-btn" (click)="logout()">Logout</button>
+        </ng-container>
+    </div>
+</nav>
